@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <title>Atividade x2x</title>
+</head>
+<body>
+
+    <div class="conteudo">
+        <div id="conteudo">
+            <img src="../img/one.jfif">
+            <form name="form2" method="POST">
+                <H3>Fan Page</H3>
+                <div id="login">Login</div>
+                    <input id="nome" type="text" placeholder="Nome" pattern=".{3,}[a-zA-Z\s]+$" required title="Apenas letras. + de 3 letras">
+                    <br>
+                    <input id="senha" type="password" placeholder="Senha" pattern=".{4,}[0-9]+$" required title="Apenas números. + de 4 números">
+                    <br>
+                    <input id="enviar" type="submit" onclick="Enviar()" value="Entrar">
+            </form>
+        </div>
+    </div>
+    <script  type="text/javascript" src="../js/js2.js"></script>
+</body>
+</html>
